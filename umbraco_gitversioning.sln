@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umbraco.GitVersioning.Extensions", "src\Umbraco.GitVersioning.Extensions\Umbraco.GitVersioning.Extensions.csproj", "{3D53FBB8-1CAB-4EC0-B9D3-C29FC707DDBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Libs", "10 - Libs", "{5D60E366-2C43-44DF-90AE-8FDD3EA2057D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 - Tests", "20 - Tests", "{8F3CA6BC-1C39-4F21-8FAC-C1DC82DCE6FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Solution Items", "00 - Solution Items", "{3A2FB7FF-CE95-46FF-BFC7-EC3CEF4850B8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umbraco.GitVersioning.Extensions.Unit.Tests", "tests\Umbraco.GitVersioning.Extensions.Unit.Tests\Umbraco.GitVersioning.Extensions.Unit.Tests.csproj", "{7AD67F25-C5DB-446D-A693-3779AF9E38B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D53FBB8-1CAB-4EC0-B9D3-C29FC707DDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D53FBB8-1CAB-4EC0-B9D3-C29FC707DDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D53FBB8-1CAB-4EC0-B9D3-C29FC707DDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D53FBB8-1CAB-4EC0-B9D3-C29FC707DDBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD67F25-C5DB-446D-A693-3779AF9E38B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD67F25-C5DB-446D-A693-3779AF9E38B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD67F25-C5DB-446D-A693-3779AF9E38B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD67F25-C5DB-446D-A693-3779AF9E38B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D53FBB8-1CAB-4EC0-B9D3-C29FC707DDBE} = {5D60E366-2C43-44DF-90AE-8FDD3EA2057D}
+		{7AD67F25-C5DB-446D-A693-3779AF9E38B4} = {8F3CA6BC-1C39-4F21-8FAC-C1DC82DCE6FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E7F6F6E-94D6-4AB8-8F56-F3D194EC73CF}
+	EndGlobalSection
+EndGlobal
