@@ -3,7 +3,7 @@
 
   <UsingTask
     TaskName="GetUmbracoBuildVersion"
-    AssemblyFile="$(MSBuildThisFileDirectory)../lib/net6.0/Umbraco.GitVersioning.Extensions.dll" />
+    AssemblyFile="$(MSBuildThisFileDirectory)..\lib\netstandard2.0\Umbraco.GitVersioning.Extensions.dll" />
 
   <Target Name="GetUmbracoBuildVersion"
           AfterTargets="GetBuildVersion"
