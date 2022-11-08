@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-
-  <UsingTask
-    TaskName="GetUmbracoBuildVersion"
-    AssemblyFile="$(MSBuildThisFileDirectory)..\lib\netstandard2.0\Umbraco.GitVersioning.Extensions.dll" />
-
-  <Target Name="GetUmbracoBuildVersion"
-          AfterTargets="GetBuildVersion"
-          BeforeTargets="SetCloudBuildVersionVars;GenerateAssemblyNBGVVersionInfo">
-
-    <GetUmbracoBuildVersion PublicRelease="$(PublicRelease)"
-                            BuildVersionSimple="$(BuildVersionSimple)"
-                            PrereleaseVersion="$(PrereleaseVersion)"
-                            GitVersionHeight="$(GitVersionHeight)"
-                            GitCommitIdShort="$(GitCommitIdShort)">
+  <UsingTask TaskName="GetUmbracoBuildVersion" AssemblyFile="$(MSBuildThisFileDirectory)..\tasks\netstandard2.0\Umbraco.GitVersioning.Extensions.dll" />
+  <Target Name="GetUmbracoBuildVersion" AfterTargets="GetBuildVersion" BeforeTargets="SetCloudBuildVersionVars;GenerateAssemblyNBGVVersionInfo">
+    <GetUmbracoBuildVersion PublicRelease="$(PublicRelease)" BuildVersionSimple="$(BuildVersionSimple)" PrereleaseVersion="$(PrereleaseVersion)" GitVersionHeight="$(GitVersionHeight)" GitCommitIdShort="$(GitCommitIdShort)">
       <Output TaskParameter="AssemblyInformationalVersion" PropertyName="AssemblyInformationalVersion" />
       <Output TaskParameter="CloudBuildNumber" PropertyName="CloudBuildNumber" />
       <Output TaskParameter="PackageVersion" PropertyName="PackageVersion" />
     </GetUmbracoBuildVersion>
   </Target>
-
 </Project>

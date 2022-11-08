@@ -5,11 +5,9 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umbraco.GitVersioning.Extensions", "src\Umbraco.GitVersioning.Extensions\Umbraco.GitVersioning.Extensions.csproj", "{3D53FBB8-1CAB-4EC0-B9D3-C29FC707DDBE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Libs", "10 - Libs", "{5D60E366-2C43-44DF-90AE-8FDD3EA2057D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8F3CA6BC-1C39-4F21-8FAC-C1DC82DCE6FF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 - Tests", "20 - Tests", "{8F3CA6BC-1C39-4F21-8FAC-C1DC82DCE6FF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Solution Items", "00 - Solution Items", "{3A2FB7FF-CE95-46FF-BFC7-EC3CEF4850B8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A2FB7FF-CE95-46FF-BFC7-EC3CEF4850B8}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
@@ -17,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Solution Items", "00 -
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umbraco.GitVersioning.Extensions.Unit.Tests", "tests\Umbraco.GitVersioning.Extensions.Unit.Tests\Umbraco.GitVersioning.Extensions.Unit.Tests.csproj", "{7AD67F25-C5DB-446D-A693-3779AF9E38B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umbraco.GitVersioning.Extensions.UnitTests", "tests\Umbraco.GitVersioning.Extensions.UnitTests\Umbraco.GitVersioning.Extensions.UnitTests.csproj", "{7AD67F25-C5DB-446D-A693-3779AF9E38B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,7 +36,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3D53FBB8-1CAB-4EC0-B9D3-C29FC707DDBE} = {5D60E366-2C43-44DF-90AE-8FDD3EA2057D}
 		{7AD67F25-C5DB-446D-A693-3779AF9E38B4} = {8F3CA6BC-1C39-4F21-8FAC-C1DC82DCE6FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

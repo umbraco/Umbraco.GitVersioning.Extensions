@@ -1,7 +1,7 @@
 using FluentAssertions;
 using Xunit;
 
-namespace Umbraco.GitVersioning.Extensions;
+namespace Umbraco.GitVersioning.Extensions.UnitTests;
 
 public class GetUmbracoBuildVersionTests
 {

@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.Build.Framework;
+﻿using Microsoft.Build.Framework;
 
 namespace Umbraco.GitVersioning.Extensions
 {
@@ -49,5 +48,4 @@ namespace Umbraco.GitVersioning.Extensions
             return true;
         }
     }
-
 }
