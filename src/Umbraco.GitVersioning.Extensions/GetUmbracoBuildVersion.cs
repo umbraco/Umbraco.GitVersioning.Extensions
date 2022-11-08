@@ -46,8 +46,6 @@ namespace Umbraco.GitVersioning.Extensions
                 PackageVersion = AssemblyInformationalVersion.Replace("+", ".g");
             }
 
-            Console.WriteLine($"##vso[task.setvariable variable=GitAssemblyInformationalVersion;]{PackageVersion}");
-
             return true;
         }
     }
